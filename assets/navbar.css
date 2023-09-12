@@ -1,0 +1,224 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    /* background-color: #e7f7fa; */
+  }
+  
+  .header {
+    background-color: rgb(38, 169, 221);
+  }
+  
+  .navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+  }
+  .nav-links li{
+    border-radius: 10px;
+  }
+  .nav-links li a{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20px;
+  }
+  .nav-links li:hover{
+    background-color: lightgrey;
+    color:black;
+    transition-duration: 0.5s;
+  }  
+  .logo img {
+    width: 70px;
+    height: 70px;
+  }
+  
+  .nav-links {
+    list-style: none;
+    display: flex;
+    gap: 30px;
+  }
+  
+  .nav-links li a {
+    color:black;
+    text-decoration: none;
+  }
+  .nav-links li{
+    padding:10px;
+  }
+  .profile {
+    display: flex;
+    gap: 10px;
+    position: relative;
+  }
+  
+  .profile-photo img {
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+  }
+  .profile-dropdown a{
+    text-decoration: none;
+    color:white
+  }
+  .hero-content p {
+    font-size: 18px;
+    margin-bottom: 40px;
+  } 
+  
+  .main-content {
+    padding: 40px;
+  }
+  .main-content{
+    background-image: url("home.png");
+    box-shadow: 0 0 8px 8px white inset;
+    height:500px;
+    background-size: cover;
+    margin-bottom:100px;
+  }
+  .main-content p{
+    color:#fff;
+    margin-top:525px;
+    text-align: center;
+  }
+  .main-content span{
+    font-size: 30px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: bold;
+  }
+table td{
+  width:250px;
+  height:120px;
+  font-size:25px;
+  text-align:center;
+}
+.key{
+  text-align:center;
+  font-size:30px;
+  padding-bottom:180px;
+}
+.about .about-content, .skill .skill-content,  .contact .contact-content{
+  color: #B2B2B2;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+}
+.about .about-content .left{
+  width: 45%;
+}
+.about .about-content .left img{
+  height: 400px;
+  width: 520px;
+  object-fit: cover;
+  border-radius: 2px;
+  padding-left: 50px;
+}
+.title{
+  padding-top:100px;
+  text-align: center;
+  margin-bottom:100px;
+}
+h3{
+  color:black;
+  font-family:cursive;
+}
+p{
+  color:black;
+  font-family:cursive;
+}
+.about .about-content .right{
+  width: 50%;
+  padding-right:60px;
+}
+.about .about-content .right .text{
+  font-size: 25px;
+  font-weight: 600;
+  margin-bottom: 10px;
+}
+.about .about-content .right .text span{
+  color: turquoise;
+}
+.about .about-content .right p{
+  text-align: justify;
+}
+#gallery table tr td img{
+  height: 200px;
+  width:250px;
+}
+.contact .column-left img{
+  height: 400px;
+  width: 520px;
+  object-fit: cover;
+  border-radius: 2px;
+  padding-left: 50px;
+  border-top-right-radius: 45%;
+  border-bottom-right-radius: 45%;
+}
+.cntact .contac-content .contact-left{
+  width: 45%;
+}
+.contact .contact-content .right{
+  width: 50%;
+  padding-right:60px;
+}
+.cont{
+  margin-top:50px;
+  display: flex;
+  gap:3px;
+  color:white;
+  height: 140px;
+  max-width: fit-content;
+}
+.cont .callus{
+  background-color: rgb(38, 169, 221);
+  padding:20px;
+  border-radius: 5%;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.cont .loc{
+  background-color: rgb(38, 169, 221);
+  padding:20px;
+  border-radius: 5%;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.cont .hrs{
+  background-color: rgb(38, 169, 221);
+  padding:20px;
+  border-radius: 5%;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.cont p{
+  font-family:Georgia, 'Times New Roman', Times, serif;
+  font-weight: bold;
+  color:white;
+}
+.form input{
+  border:none;
+  border-bottom:1px solid black;
+  height: 42px;
+  width:400px;
+}
+.form label{
+  color:black;
+  font-size:20px;
+}
+.form button{
+  border:none;
+  height:42px;
+  width:150px;
+  color:white;
+  background-color: rgb(38, 169, 221);
+  border-radius:10%;
+}
+footer{
+  margin-top:100px;
+  height: 200px;
+  max-width:cover;
+  background-color:gray;
+}
+.conte{
+  text-align: center;
+  padding-top:100px;
+  font-weight: bold;
+  font-size:40px;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}

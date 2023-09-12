@@ -1,0 +1,138 @@
+body{
+	margin: 0;
+	padding: 0;
+	background-color: #A69C9B;
+	font-family: Arial,Lucida Sans;
+}
+.wrapper{
+	height: 700px;
+	width: 100%;
+	margin: 0 auto;
+	font-family: Arial,Lucida Sans;
+}
+.header{
+	height: 70px;
+	width: 100%;
+	background-color: #048d3d;
+	float: left;
+}
+.headerleft{
+	height: auto;
+	width: 60%;
+	float: left;
+	color: white;
+	font-weight:700;
+	font-size: 16px;
+	font-family: Arial;
+	padding: 13px 20px;
+}
+.headerright{
+	height: 100%;
+	width: 30%;
+	float: left;
+	color: white;
+	font-size: 16px;
+	font-family: Arial;
+	padding: 13px 20px;
+}
+.headerright a{
+	letter-spacing: 1px;
+	text-decoration: none;
+	font-size: 18px;
+	color: rgb(235, 227, 169);
+}
+.footer{
+	margin-top:80px;
+	min-height: 50px;
+	max-height: auto;
+	width: 100%;
+	background-color: #048d3d;
+	float: left;
+}
+.left{
+	min-height: 450px;
+	max-height: auto;
+	width: 20%;
+	background-color: rgb(191, 197, 199);
+	margin-top: 10px;
+	float: left;
+}
+
+.btnlink
+{
+	font-weight:800;
+	height: 35px;
+	width: 150px;
+	/* font-size:20px; */
+	border-radius: 15px;
+	background-color: #063e5f;
+	border: 0;
+	margin: 0;
+	color: white;
+	cursor: pointer;
+}
+.btnlink:hover{
+	background-color:rgb(120, 128, 136);
+	color:black;
+	/* height: 50px;
+	width:140px; */
+	transition-duration: 0.7s;
+}
+.right{
+	min-height: 450px;
+	max-height: auto;
+	width: 79%;
+	font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+	margin-left: 8px;
+	background-color: rgb(191, 197, 199);
+	margin-top: 10px;
+	float: left;
+}
+.table{
+	height: auto;
+	width: 90%;
+	margin: 0 auto;
+	margin-top: 5px;
+	border: 1px solid black;
+	border-collapse: collapse;
+}
+.table tr td{
+	border: 1px solid black;
+	border-collapse: collapse;
+	padding-left: 10px;
+	font-size: 17px;
+}
+.table tr th{
+	height: 30px;
+	border: 1px solid black;
+	border-collapse: collapse;
+}
+.table tr td:hover{
+	background-color: #ccf;
+}
+.form
+{
+	height: 30px;
+	width: 240px;
+	border: 1px solid #ccf;
+	border-radius: 5px;
+	padding-left: 20px;
+}
+.form2
+{
+	height: 30px;
+	width: 120px;
+	border: 1px solid #ccf;
+	border-radius: 5px;
+	padding-left: 20px;
+}
+
+@media (max-width: 955px){
+	.left{
+		width: 100%;
+	}
+	.right{
+		width: 100%;
+		margin-left: 0px;
+	}
+}
